@@ -41,8 +41,8 @@ curl "https://raw.githubusercontent.com/andreafabrizi/Dropbox-Uploader/master/dr
 Then give the execution permission to the script and run it:
 
 ```bash
- $chmod +x dropbox_uploader.sh
- $./dropbox_uploader.sh
+ $ chmod +x dropbox_uploader.sh
+ $ ./dropbox_uploader.sh
 ```
 
 The first time you run `dropbox_uploader`, you'll be guided through a wizard in order to configure access to your Dropbox. This configuration will be stored in `~/.dropbox_uploader`.
